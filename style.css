@@ -174,11 +174,14 @@ body{
 } */
 
 .textcate{
-    margin-top: 2rem;
-    margin-bottom:1rem ;
+    width: 100%;
+    height: 4rem;
     font-size: 1.8rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+}
+.catetext{
+    padding-top: 1rem;
 }
 
 .categories{
@@ -233,11 +236,6 @@ body{
     flex-direction: column;
 }
 
-.footer{
-    width: 100%;
-    height: 10rem;
-    background-color: rgb(201, 201, 215);
-}
 
 .explore{
  width: 15rem;
@@ -247,5 +245,28 @@ body{
  margin-top: 0.5rem;
  border-radius: 5px;
  padding: 5px;
- font-weight: 600;
+ font-weight: 500;
+}
+
+.explore:hover{
+    cursor: pointer;
+}
+
+.newarrival{
+    background-color: rgb(243, 243, 195);
+}
+.catenewarrival{
+    background-color: white;
+}
+.catenewarrivallink{
+    font-size: 1rem;
+}
+
+.bestsell{
+    background-color: rgb(181, 242, 248);
+}
+.footer{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(201, 201, 215);
 }

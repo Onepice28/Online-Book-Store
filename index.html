@@ -20,10 +20,10 @@
     </div>
     <div class="header2 rahul">
         <a class="home rahul" href="#">HOME</a>
-        <a class="Competative rahul" href="#">COMPETATIVE BOOK</a>
-        <a class="academic rahul" href="#">ACADEMIC BOOK</a>
-        <a class="fiction rahul" href="#">FICTION BOOK</a>
-        <a class="coding rahul" href="#">CODING BOOK</a>
+        <a class="Competative rahul" href="./popular categories/index.html#link-competitve">COMPETATIVE BOOK</a>
+        <a class="academic rahul" href="./popular categories/index.html#link-academic">ACADEMIC BOOK</a>
+        <a class="fiction rahul" href="./popular categories/index.html#link-fiction">FICTION BOOK</a>
+        <a class="coding rahul" href="./popular categories/index.html#link-coding">CODING BOOK</a>
     </div>
 
     <div class="hero slider">
@@ -63,32 +63,96 @@
 
 
 
-
+<!-- Popular Categories -->
     <div class="textcate">
         <p class="catetext">Popular Categories</p>
     </div>
     <div class="categories">
         <div class="categorie1">
             <div class="competative cate"><img class="cateimg" src="competative.webp" alt=""></div>
-            <div class="catelinktext"><a class="catelink" href="#">Competative Book</a><button
-                    class="explore">Explore</button></div>
+            <div class="catelinktext"><a class="catelink" href="#">Competitive Book</a><a class="explorelink"  href="./popular categories/index.html#link-competitve"><button class="explore">explore</button></a></div>
         </div>
         <div class="categorie1">
             <div class="academic cate"><img class="cateimg" src="academic.jpg" alt=""></div>
             <div class="catelinktext"><a class="catelink" href="#">Academic Book</a><button
-                    class="explore">Explore</button></div>
+                    class="explore"><a class="explorelink"  href="./popular categories/index.html#link-academic">Explore</a></button></div>
         </div>
         <div class="categorie1">
             <div class="fiction cate"><img class="cateimg" src="fiction.webp" alt=""></div>
             <div class="catelinktext"><a class="catelink" href="#">Fiction Book</a><button
-                    class="explore">Explore</button></div>
+                    class="explore"><a class="explorelink"  href="./popular categories/index.html#link-fiction">Explore</a></button></div>
         </div>
         <div class="categorie1">
             <div class="coding cate"><img class="cateimg" src="coding.jpg" alt=""></div>
             <div class="catelinktext"><a class="catelink" href="#">Coding Book</a><button
-                    class="explore">Explore</button></div>
+                    class="explore"><a class="explorelink" href="./popular categories/index.html#link-coding">Explore</a></button></div>
         </div>
     </div>
+
+    <!-- new arrival -->
+    <div class="textcate newarrival">
+        <p class="catetext">New Books Arrival</p>
+    </div>
+    <div class="categories newarrival">
+        <div class="categorie1 catenewarrival">
+            <div class="competative cate "><img class="cateimg" src="newarrival1.jpg" alt=""></div>
+            <div class="catelinktext"><a class="catelink catenewarrivallink" href="#">Nta Ugc Net '24 Paper 1 By Kvs Madam</a><button
+                    class="explore">Buy Now</button></div>
+        </div>
+        <div class="categorie1 catenewarrival">
+            <div class="academic cate "><img class="cateimg" src="newarrival2.jpg" alt=""></div>
+            <div class="catelinktext"><a class="catelink catenewarrivallink" href="#">The Wealth Money Can't Buy: The 8 Hidden Habits to Live Your Richest Life</a><button
+                    class="explore">Buy Now</button></div>
+        </div>
+        <div class="categorie1 catenewarrival">
+            <div class="fiction cate "><img class="cateimg" src="newarrival3.jpg" alt=""></div>
+            <div class="catelinktext"><a class="catelink catenewarrivallink" href="#">The Legend of the Goddess: Invoking Sri Suktam</a><button
+                    class="explore">Buy Now</button></div>
+        </div>
+        <div class="categorie1 catenewarrival">
+            <div class="coding cate "><img class="cateimg" src="newarrival4jpg.jpg" alt=""></div>
+            <div class="catelinktext"><a class="catelink catenewarrivallink" href="#">Lucifer was Innocent: The Red Pill</a><button
+                    class="explore">Buy Now</button></div>
+        </div>
+    </div>
+
+     <!-- best selling books -->
+     <div class="textcate newarrival bestsell">
+        <p class="catetext">Best Selling Books</p>
+    </div>
+    <div class="categories newarrival bestsell">
+        <div class="categorie1 catenewarrival">
+            <div class="competative cate "><img class="cateimg" src="best1.jpg" alt=""></div>
+            <div class="catelinktext"><a class="catelink catenewarrivallink" href="#">A Tale of Two Cities</a><button
+                    class="explore">Buy Now</button></div>
+        </div>
+        <div class="categorie1 catenewarrival">
+            <div class="academic cate "><img class="cateimg" src="best2.jpg" alt=""></div>
+            <div class="catelinktext"><a class="catelink catenewarrivallink" href="#">The Little Prince (Le Petit Prince)</a><button
+                    class="explore">Buy Now</button></div>
+        </div>
+        <div class="categorie1 catenewarrival">
+            <div class="fiction cate "><img class="cateimg" src="best3.jpg" alt=""></div>
+            <div class="catelinktext"><a class="catelink catenewarrivallink" href="#">The Alchemist (O Alquimista)</a><button
+                    class="explore">Buy Now</button></div>
+        </div>
+        <div class="categorie1 catenewarrival">
+            <div class="coding cate "><img class="cateimg" src="best4.jpg" alt=""></div>
+            <div class="catelinktext"><a class="catelink catenewarrivallink" href="#">Harry Potter and the Philosopher's Stone</a><button
+                    class="explore">Buy Now</button></div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked=true;
+            counter++;
+            if(counter> 4){
+                counter=1;
+            }
+        },5000);
+    </script>
 </body>
 
 </html>
